@@ -11,3 +11,4 @@ tzdata==2025.3
 gunicorn==23.0.0
 whitenoise==6.7.0
 setuptools  # Required for gunicorn (pkg_resources)
+openai>=1.14.0

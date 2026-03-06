@@ -182,3 +182,7 @@ SIMPLE_JWT = {
     'SIGNING_KEY': SECRET_KEY,
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
+
+# OpenAI Configuration
+import os
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY', '')
